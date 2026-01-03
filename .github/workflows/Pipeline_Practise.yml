@@ -11,4 +11,11 @@ on:
   #     - main
   #     - devlop
   #     - features/**
+jobs:
+  job-1:
+    runs-on: self_hosted
+    name: My First Job
+    
+  
+
     
