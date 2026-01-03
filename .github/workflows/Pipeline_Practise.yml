@@ -1,6 +1,7 @@
 name: My Application Pipeline Practise
 on: 
   workflow_dispatch:
+permissions: {}
   # push:
   #   branches: 
   #     - main
