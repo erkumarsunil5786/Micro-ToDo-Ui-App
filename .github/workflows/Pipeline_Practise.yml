@@ -1,0 +1,14 @@
+name: My Application Pipeline Practise
+on: 
+  workflow_dispatch:
+  # push:
+  #   branches: 
+  #     - main
+  #     - devlop
+  #     - features/**
+  # pull_request:
+  #   branches:
+  #     - main
+  #     - devlop
+  #     - features/**
+    
