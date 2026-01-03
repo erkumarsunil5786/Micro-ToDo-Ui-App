@@ -1,20 +1,20 @@
-name: Github Action Practise
-on:
-  push: 
-    branches: 
-    - main
-    - devlop
-    - features/**
-  pull_request:
-    branches:
-    - main
-    - devlop
-    - features/**
-jobs:
-  job-1:
-    name: My First Job
-    runs-on: self_hosted
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v6.0.1
+# name: Github Action Practise
+# on:
+#   push: 
+#     branches: 
+#     - main
+#     - devlop
+#     - features/**
+#   pull_request:
+#     branches:
+#     - main
+#     - devlop
+#     - features/**
+# jobs:
+#   job-1:
+#     name: My First Job
+#     runs-on: self_hosted
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@v6.0.1
     
