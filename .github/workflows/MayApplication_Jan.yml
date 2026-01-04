@@ -1,4 +1,4 @@
-name: My Application Pipeline Practise
+name: Application Practise
 on: 
   workflow_dispatch:
   # push:
@@ -14,7 +14,7 @@ on:
 jobs:
   job-1:
     runs-on: self_hosted
-    name: My First Job||||Build
+    name: My 1st Job||Build
     steps:
     - name: Setup Node.js environment
       uses: actions/setup-node@v6.1.0
